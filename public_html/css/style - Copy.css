@@ -1,0 +1,99 @@
+
+@charset "utf-8";
+/*#00ffa8  verde agua
+#b2b3b3  gris
+*/
+/*THE MOST IMPORTANT THING FOR THE GRID SYSTEM WORKS IS ADDING THE MAX AND MIN WIDTH*/
+body
+{
+	background-image: url(../../public/images/dk2_t.png) ,url(../../public/images/bg.jpg) ; background-size:  65%, cover; background-position:-55% bottom, center; background-repeat:no-repeat; background-attachment:fixed,fixed;
+}
+
+.container{ max-width:960px; min-width:320px;background-color:}
+.col { background-color:}
+.row{ background-color:}
+section section{ background-color:#fff; padding:10px 0 10px 10px; opacity:.98
+
+-webkit-box-shadow: 0px 5px 10px rgba(0,0,0,.8);
+-moz-box-shadow: 0px 5px 10px rgba(0,0,0,.8);
+box-shadow: 0px 5px 10px rgba(0,0,0,.8);   
+   
+-webkit-border-radius:20px;
+-moz-border-radius:20px;
+border-radius:20px;}	
+
+#name *, #contactDetails *{ text-align: center; line-height: 180%; list-style-type: none }
+.span_8 { background-color: #F00}
+
+h1 { font-size:2em;}
+h3 { font-size:1.1em;}
+h2 { font-size:1.3em;}
+div > span { font-weight:bold}
+
+ul.ul_buttons li, ul.ul_buttons li a 
+{ 
+background-color: #666; height:137px; padding:0 2px; float:left;border: outset #F66 0px ;line-height:110px;-webkit-transform: rotateY(0deg);-moz-transform:rotateY(0deg);transform:rotateY(0deg); text-align:center;color: #FFF; font-size:18px; opacity:0.75; 
+		
+-webkit-box-shadow: 0px 5px 10px rgba(0,0,0,.8);
+-moz-box-shadow: 0px 5px 10px rgba(0,0,0,.8);
+box-shadow: 0px 5px 10px rgba(0,0,0,.8);   
+   
+-webkit-border-radius:74px;
+-moz-border-radius:74px;
+border-radius:74px;
+	   
+-webkit-transition: all 400ms ease-in-out;
+-moz-transition: all 400ms ease-in-out;
+transition: all 400ms ease-in-out;
+} 
+			
+ul.ul_buttons li:last-child 
+{ 
+	margin-bottom:0px;
+}
+
+.clear
+{ 
+	clear:both;
+}
+
+
+nav ul li a:hover  
+{ 
+	background-color: #FF2017; color:#FFF; border: outset #F00 10px;	
+
+} 	
+			
+nav ul li:hover > a{-webkit-transform:rotateY(360deg); -moz-transform:rotateY(360deg);transform:rotateY(360deg) }
+#content_wrap nav ul li:first-child { margin-left:8.5%}
+
+			
+#content_wrap nav ul li a {width:100%; height:100%;  text-align:center; text-decoration:none; padding-top:6px;}
+
+
+nav
+{ 
+	background-color: transparent 
+}
+
+#cv
+{ 
+	background-color:#FFF;
+	opacity:0.96; 
+		
+-webkit-box-shadow: 0px 5px 10px rgba(0,0,0,.8);
+-moz-box-shadow: 0px 5px 10px rgba(0,0,0,.8);
+box-shadow: 0px 5px 10px rgba(0,0,0,.8);   
+   
+-webkit-border-radius:20px;
+-moz-border-radius:20px;
+border-radius:20px;
+	
+}
+
+#headshot { height:
+	}
+
+ul {list-style-type:circle;}
+
+#andraUtbildningar{ display:none}
